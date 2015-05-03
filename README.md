@@ -7,5 +7,3 @@ Basado en RareItemHunter de Ne0nx3r0.
 Antes de copiar o clonar preguntar al desarrollador. Gracias.
 
 IP del servidor FunPark: mc.minecraftfunpark.com
-
-#FunParkNetwork ;)
