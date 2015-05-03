@@ -48,7 +48,7 @@ public class BossAutoSpawner implements Runnable{
                                     for(Player p : eggToHatch.getLocation().getWorld().getPlayers())
                                     {
                                         p.sendMessage(ChatColor.DARK_GREEN+"El boss "+ChatColor.WHITE+eggToHatch.getName()+ChatColor.DARK_GREEN+" ha sido derrotado a manos de "+ChatColor.WHITE+awakener+ChatColor.DARK_GREEN+"!");
-                                        BountifulAPI.sendActionBar(p,ChatColor.DARK_GREEN+"El boss "+ChatColor.WHITE+eggToHatch.getName()+ChatColor.DARK_GREEN+" ha sido derrotado a manos de "+ChatColor.WHITE+awakener+ChatColor.DARK_GREEN);
+                                        BountifulAPI.sendActionBar(p,ChatColor.DARK_GREEN+"El boss "+ChatColor.WHITE+eggToHatch.getName()+ChatColor.DARK_GREEN+" ha sido derrotado a manos de "+ChatColor.WHITE+awakener);
                                     }
 
                                     bm.hatchBoss(eggToHatch);
