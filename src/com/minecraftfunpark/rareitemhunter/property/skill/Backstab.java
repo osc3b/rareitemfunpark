@@ -4,6 +4,7 @@ import com.connorlinfoot.bountifulapi.BountifulAPI;
 import com.minecraftfunpark.rareitemhunter.property.ItemProperty;
 import com.minecraftfunpark.rareitemhunter.property.ItemPropertyTypes;
 
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 
@@ -22,7 +23,7 @@ public class Backstab extends ItemProperty
             e.setDamage(e.getDamage() * level);
             
             p.sendMessage("Backstab!");
-            BountifulAPI.sendActionBar(p,"Backstab");
+            BountifulAPI.sendActionBar(p,ChatColor.GREEN+"Backstab");
             
             if(e.getEntity() instanceof Player)
             {

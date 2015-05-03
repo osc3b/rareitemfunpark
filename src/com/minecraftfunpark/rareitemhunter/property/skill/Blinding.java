@@ -6,6 +6,7 @@ import com.minecraftfunpark.rareitemhunter.property.ItemPropertyTypes;
 
 import java.util.Random;
 
+import org.bukkit.ChatColor;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
@@ -34,7 +35,7 @@ public class Blinding extends ItemProperty
             if(e.getEntity() instanceof Player)
             {
                 ((Player) e.getEntity()).sendMessage("Te han cegado!");
-                BountifulAPI.sendActionBar(((Player) e.getEntity()),"Te han cegado");
+                BountifulAPI.sendActionBar(((Player) e.getEntity()),ChatColor.RED+"Te han cegado");
             }
             
             return true;
