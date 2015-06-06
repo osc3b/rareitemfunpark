@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Users/Oscar/Downloads/Actualizar Spigot/Bukkit/target/bukkit-1.8.3-R0.1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oscar/Downloads/Actualizar Spigot/CraftBukkit/target/craftbukkit-1.8.3-R0.1-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oscar/Eclipse/Libraries/Essentials.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oscar/Eclipse/Libraries/Residence.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oscar/Eclipse/Libraries/Vault.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Oscar/Eclipse/Libraries/BountifulAPI.jar"/>
+	<classpathentry kind="lib" path="E:/Descargas/Libraries/bukkit-1.8.6-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="E:/Descargas/Libraries/craftbukkit-1.8.6.jar"/>
+	<classpathentry kind="lib" path="E:/Descargas/Libraries/Essentials-2.x-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="E:/Descargas/Libraries/Vault.jar"/>
+	<classpathentry kind="lib" path="E:/Descargas/Libraries/BountifulAPI.jar"/>
+	<classpathentry kind="lib" path="E:/Descargas/Libraries/Residence.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
