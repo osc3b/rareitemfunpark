@@ -1,6 +1,5 @@
 package com.lonelymc.ri4.bukkit.rareitems.properties;
 
-import com.avaje.ebean.enhance.ant.StringReplace;
 import com.lonelymc.ri4.bukkit.rareitems.RareItemProperty;
 import com.lonelymc.ri4.api.ItemPropertyRarity;
 import com.lonelymc.ri4.api.PropertyCostType;
