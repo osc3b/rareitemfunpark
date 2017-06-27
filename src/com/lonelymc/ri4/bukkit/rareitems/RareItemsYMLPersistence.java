@@ -8,10 +8,8 @@ import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 public class RareItemsYMLPersistence implements IRareItemsPersistence {
     private IRareItems4API api;

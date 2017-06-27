@@ -36,7 +36,7 @@ public class Durability extends RareItemProperty {
         for (int i = 0; i < armor.length; i++) {
             repairItem(armor[i], level);
         }
-        ItemStack heldItem = player.getItemInHand();
+        ItemStack heldItem = player.getInventory().getItemInMainHand();
         if (heldItem != null) {
             repairItem(heldItem, level);
         }

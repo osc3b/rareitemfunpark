@@ -5,8 +5,6 @@ import com.lonelymc.ri4.api.IEssence;
 import com.lonelymc.ri4.api.IRareItemProperty;
 import com.lonelymc.ri4.api.ItemPropertyRarity;
 
-import java.util.Date;
-import java.util.UUID;
 
 public class Essence implements IEssence {
     private final ItemPropertyRarity rarity;

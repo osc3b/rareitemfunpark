@@ -3,7 +3,6 @@ package com.lonelymc.ri4.bukkit.rareitems.properties;
 import com.lonelymc.ri4.api.ItemPropertyRarity;
 import com.lonelymc.ri4.api.PropertyCostType;
 import com.lonelymc.ri4.bukkit.rareitems.RareItemProperty;
-import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;

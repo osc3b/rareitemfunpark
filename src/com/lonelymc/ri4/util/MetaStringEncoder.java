@@ -1,6 +1,5 @@
 package com.lonelymc.ri4.util;
 
-import com.lonelymc.ri4.api.RI4Strings;
 import org.bukkit.ChatColor;
 
 public class MetaStringEncoder {

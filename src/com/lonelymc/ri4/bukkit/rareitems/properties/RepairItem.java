@@ -85,7 +85,7 @@ public class RepairItem extends RareItemProperty {
     public boolean onInteractEntity(Player pInteracted, PlayerInteractEntityEvent e, int level) {
         if ((e.getRightClicked() instanceof Player)) {
             Player pClicked = (Player) e.getRightClicked();
-            ItemStack isSlotOne = pClicked.getItemInHand();
+            ItemStack isSlotOne = pClicked.getInventory().getItemInMainHand();
             if (isSlotOne.getType().getMaxDurability() > 20) {
                 int iRepairAmount = isSlotOne.getType().getMaxDurability() / 5 * level - isSlotOne.getType().getMaxDurability() / 10;
 

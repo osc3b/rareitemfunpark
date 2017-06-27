@@ -1,8 +1,5 @@
 package com.lonelymc.ri4.api;
 
-import java.util.Date;
-import java.util.UUID;
-
 public interface IEssence {
     String getMaterial();
 

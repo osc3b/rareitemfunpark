@@ -10,7 +10,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
-import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDamageEvent;
@@ -61,7 +60,7 @@ public class PlayerListener implements Listener {
     @EventHandler(priority = EventPriority.NORMAL, ignoreCancelled = true)
     public void onPlayerInteractWithEntityUsingRareItem(PlayerInteractEntityEvent e) {
         Player p = e.getPlayer();
-        IRareItem ri = this.api.getRareItem(p.getItemInHand());
+        IRareItem ri = this.api.getRareItem(p.getInventory().getItemInMainHand());
 
         if (ri != null && ri.getStatus() != RareItemStatus.REVOKED) {
             e.setCancelled(true);
@@ -108,7 +107,7 @@ public class PlayerListener implements Listener {
         if (attacker instanceof Player) {
             Player pAttacker = (Player) e.getDamager();
 
-            ItemStack is = pAttacker.getItemInHand();
+            ItemStack is = pAttacker.getInventory().getItemInMainHand();
 
             IRareItem ri = this.api.getRareItem(is);
 
@@ -178,7 +177,7 @@ public class PlayerListener implements Listener {
                     //Mark which bow shot the arrow
                     Arrow arrow = (Arrow) e.getProjectile();
 
-                    arrow.setMetadata("bow", new FixedMetadataValue(plugin, player.getItemInHand()));
+                    arrow.setMetadata("bow", new FixedMetadataValue(plugin, player.getInventory().getItemInMainHand()));
 
                     for (Map.Entry<IRareItemProperty, Integer> entry : ri.getProperties().entrySet()) {
                         IRareItemProperty rip = entry.getKey();

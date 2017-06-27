@@ -1,7 +1,6 @@
 package com.lonelymc.ri4.api;
 
 import java.util.Map;
-import java.util.UUID;
 
 public interface IRareItemsPersistence {
     // I don't like this, but it makes building the rare item objects in persistence much simpler

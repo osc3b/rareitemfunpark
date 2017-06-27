@@ -174,8 +174,6 @@ public class CommandWI extends BasicCommand {
     }
 
     private void sendPropertiesMsg(CommandSender cs, List<IRareItemProperty> properties) {
-        StringBuilder sb = new StringBuilder();
-
         //Alphabetize by display name
         Collections.sort(properties, new RIDisplayNameComparator());
 

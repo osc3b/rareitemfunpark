@@ -3,7 +3,6 @@ package com.lonelymc.ri4.bukkit.commands;
 import com.lonelymc.ri4.api.IRareItems4API;
 import com.lonelymc.ri4.api.RI4Strings;
 import com.lonelymc.ri4.bukkit.RareItems4Plugin;
-import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -35,7 +34,7 @@ public class HatCommandExecutor implements CommandExecutor{
 
         Player p = (Player)cs;
 
-        ItemStack isToEquip = p.getItemInHand();
+        ItemStack isToEquip = p.getInventory().getItemInMainHand();
 
         if ((isToEquip != null) && (isToEquip.getType() != Material.AIR) && !this.isBelowNeckArmor(isToEquip))
         {

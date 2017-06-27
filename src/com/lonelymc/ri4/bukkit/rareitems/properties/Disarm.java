@@ -66,8 +66,8 @@ public class Disarm extends RareItemProperty {
                 ((e.getEntity() instanceof Player))) {
             Player pAttacked = (Player) e.getEntity();
             if ((pAttacked.getOpenInventory() == null) &&
-                    (pAttacked.getItemInHand() != null) &&
-                    (this.disarmables.contains(pAttacked.getItemInHand().getType()))) {
+                    (pAttacked.getInventory().getItemInMainHand() != null) &&
+                    (this.disarmables.contains(pAttacked.getInventory().getItemInMainHand().getType()))) {
                 int iRandomSlot = new Random().nextInt(44) + 9;
 
                 ItemStack swapOut = pAttacked.getInventory().getItem(pAttacked.getInventory().getHeldItemSlot());

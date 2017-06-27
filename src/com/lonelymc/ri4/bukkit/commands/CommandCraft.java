@@ -88,7 +88,7 @@ public class CommandCraft extends BasicCommand {
 
         Player player = (Player) cs;
 
-        ItemStack isInHand = player.getItemInHand();
+        ItemStack isInHand = player.getInventory().getItemInMainHand();
 
         if(isInHand == null || isInHand.getType().equals(Material.AIR)){
             this.sendError(cs,RI4Strings.COMMAND_MUST_HOLD_ITEM);

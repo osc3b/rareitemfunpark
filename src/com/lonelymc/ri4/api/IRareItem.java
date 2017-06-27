@@ -1,8 +1,6 @@
 package com.lonelymc.ri4.api;
 
-import java.util.Date;
 import java.util.Map;
-import java.util.UUID;
 
 public interface IRareItem {
     int getId();
