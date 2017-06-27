@@ -3,6 +3,9 @@ package com.lonelymc.ri4.bukkit.rareitems.properties;
 import com.lonelymc.ri4.bukkit.rareitems.RareItemProperty;
 import com.lonelymc.ri4.api.ItemPropertyRarity;
 import com.lonelymc.ri4.api.PropertyCostType;
+
+import java.util.concurrent.ThreadLocalRandom;
+
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
@@ -46,9 +49,11 @@ public class Pull extends RareItemProperty {
 
                 attacked.sendMessage(PULLED.replace("!player",pAttacker.getName()));
             }
-            e.getEntity().teleport(pAttacker);
-
-            return true;
+            int randomNum = ThreadLocalRandom.current().nextInt(1, 4 + 1);
+            if(randomNum==1){
+	            e.getEntity().teleport(pAttacker);
+	            return true;
+            }
         }
         return false;
     }

@@ -63,7 +63,7 @@ public class GreaterBurst extends RareItemProperty {
 
                     unitVector.setY(0.55D / level);
 
-                    ent.setVelocity(unitVector.multiply(level * 2));
+                    ent.setVelocity(unitVector.multiply(level * 1.5));
 
                     showFx = true;
                 }

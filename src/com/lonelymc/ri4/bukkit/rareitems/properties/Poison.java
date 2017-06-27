@@ -23,7 +23,7 @@ public class Poison extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.FOOD,
                 2.0D,
-                6,
+                4,
                 new String[]{
                         "type=POTION;dura=16420;",
                         "type=POISONOUS_POTATO;",

@@ -60,7 +60,7 @@ public class Burst extends RareItemProperty {
 
             unitVector.setY(0.55D / level);
 
-            le.setVelocity(unitVector.multiply(level * 2));
+            le.setVelocity(unitVector.multiply(level * 1.5));
 
             e.setCancelled(true);
 

@@ -18,7 +18,7 @@ public class Backstab extends RareItemProperty {
                 ItemPropertyRarity.RARE,
                 PropertyCostType.FOOD, //Cost type
                 2.0D, // Default cost
-                8,   // Max level
+                5,   // Max level
                 new String[]{
                         "type=DEAD_BUSH;",
                         "type=ENDER_PORTAL_FRAME;",
@@ -57,7 +57,7 @@ public class Backstab extends RareItemProperty {
             double backstabDamage = e.getDamage() * 2;
 
             if(level > 2){
-                backstabDamage += e.getDamage() * 0.50 * (double) level;
+                backstabDamage += e.getDamage() * 0.20 * (double) level;
             }
 
             e.setDamage(backstabDamage);

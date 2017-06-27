@@ -13,7 +13,7 @@ public class Replenish extends RareItemProperty {
                 ItemPropertyRarity.LEGENDARY,
                 PropertyCostType.AUTOMATIC,
                 20,//Cost
-                4//Max level
+                2//Max level
         );
     }
 
