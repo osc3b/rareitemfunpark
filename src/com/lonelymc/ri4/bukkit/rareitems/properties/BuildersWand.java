@@ -53,7 +53,7 @@ public class BuildersWand extends RareItemProperty {
             for (Block b : blocksToBuildOn) {
                 ItemStack is = new ItemStack(type, 1, (short) 0, b.getData());
 
-                BlockPlaceEvent event = new BlockPlaceEvent(b, b.getState(), b.getRelative(baseFace),is, pInteracted, true);
+                BlockPlaceEvent event = new BlockPlaceEvent(b, b.getState(), b.getRelative(baseFace),is, pInteracted, true, org.bukkit.inventory.EquipmentSlot.HAND);
 
                 Bukkit.getServer().getPluginManager().callEvent(event);
 

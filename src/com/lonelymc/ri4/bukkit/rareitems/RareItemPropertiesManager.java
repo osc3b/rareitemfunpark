@@ -113,7 +113,7 @@ public class RareItemPropertiesManager {
         meta.setDisplayName(recipeName);
 
         isPlaceholder.setItemMeta(meta);
-
+        
         ShapedRecipe recipe = new ShapedRecipe(isPlaceholder);
 
         String[] ripRecipe = rip.getRecipe();
@@ -179,7 +179,7 @@ public class RareItemPropertiesManager {
         );
 
         for (Map.Entry<Material, Character> entry : recipeShape.entrySet()) {
-            recipe.setIngredient(entry.getValue(), entry.getKey(), (byte) -1);
+            recipe.setIngredient(entry.getValue(), entry.getKey());
         }
 
         Bukkit.getServer().addRecipe(recipe);

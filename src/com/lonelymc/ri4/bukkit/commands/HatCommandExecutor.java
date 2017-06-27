@@ -47,7 +47,7 @@ public class HatCommandExecutor implements CommandExecutor{
 
             inv.setHelmet(isToEquip);
 
-            inv.setItemInHand(isToUnequip);
+            inv.setItemInMainHand(isToUnequip);
 
             this.api.unEquipRareItem(p, isToUnequip);
 
