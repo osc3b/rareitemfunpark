@@ -1,54 +1,6 @@
-# Distance to autospawn bosses from when approached by a player
-autospawnDistance: 15
+# In ticks how often to save (Note: only saves when there are changes)
+# 1200 = 60 seconds
+save-interval: 1200
 
-# Number of ticks between boss autospawn checks
-autospawnTicks: 80
-
-# Time between chances to generate a monster in minutes
-# -1 to disable random boss spawning
-timeBetweenChancesToGenerateBossEgg: 60
-
-# Maximum chance a boss will be generate on each attempt
-# The chance is based on the number of players online and the max player count
-# For example, a server with 100 max players:
-# 10 players online : 5% chance
-# 50 players online : 25% chance
-# 100 players online (full) : 50% chance
-
-# Default (20) means:
-# 25% full = 5% chance
-# 50% full = 10% chance
-# 100% full = 20% chance
-
-# This is set low by default, you should set it higher to make bosses spawn more often.
-maxChanceToGenerateBossEgg: 20
-
-# How many minutes before a boss that is not found will disappear
-bossEggExpiration: 30
-
-# food, xp, or money (money requires Vault)
-costType: food
-
-# Increment all costs by 1 per X levels
-# For example a value of 2 means: 
-# - level 1: +0
-# - level 2: +1
-# - level 3: +1
-# - level 4: +2
-# - level 5: +2
-# - level 6: +3
-#
-# 0 = no increment
-costLevelIncrement: 2
-
-# Global multiplier for costs
-# For example 2 means 200% cost for all properties
-costMultiplier: 1
-
-# Number of player kills before a boss will disappear
-bossExpireKills: 20
-
-# Misc
-
-# Permission Node: rareitemhunter.admin.notify: true
-update-notifications: true
+#max number of properties that can be put on an item
+max-properties: 8

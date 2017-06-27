@@ -1,80 +1,31 @@
-name: RareItemHunter
-main: com.minecraftfunpark.rareitemhunter.RareItemHunter
-version: '1.7'
+name: RareItems4
+main: com.lonelymc.ri4.bukkit.RareItems4Plugin
+version: '4.1.1a'
+load: STARTUP
 database: false
-softdepend: [RemoteEntities]
-description: Rare Item Hunter
+softdepend: [Vault]
+description: Rare Items 4
 commands:
     ri:
       description: RareItems commands
-permissions: 
-# All
-  rareitemhunter.*:
-    description: All RareItemHunter permissions
-    default: op
-    children:
-      rareitemhunter.hunter.compass: true
-      rareitemhunter.hunter.hatch: true
-      rareitemhunter.hunter.craft: true
-      rareitemhunter.admin.spawnpoint: true
-      rareitemhunter.admin.egg: true
-      rareitemhunter.admin.boss: true
-      rareitemhunter.admin.reload: true
-      rareitemhunter.admin.notify: true
-      rareitemhunter.admin.essence: true
-      rareitemhunter.admin.compass: true
-      rareitemhunter.admin.crafter: true
- # Hunter
-  rareitemhunter.hunter.*:
-    description: Access to hunting permissions
+    hat:
+      description: put an item on your head
+permissions:
+  ri4.wi:
+    description: Can view properties and their recipes
     default: true
-    children:
-      rareitemhunter.hunter.compass: true
-      rareitemhunter.hunter.hatch: true
-      rareitemhunter.hunter.craft: true
-  rareitemhunter.hunter.craft:
-    description: Craft rare item components and rare items from rare essences
+  ri4.hat:
+    description: Can use RI's version of /hat to put various items on their head
     default: false
-  rareitemhunter.hunter.compass:
-    description: Use a legendary compass to find bosses
+  ri4.admin.logs:
+    description: Will see error summaries in-game
     default: false
-  rareitemhunter.hunter.hatch:
-    description: Awaken bosses
+  ri4.admin.recipe:
+    description: Can edit property recipes
     default: false
-# Admin
-  rareitemhunter.admin.*:
-    description: All admin permissions
+  ri4.admin.craft:
+    description: Can add item properties to items
     default: false
-    children:
-      rareitemhunter.admin.spawnpoint: true
-      rareitemhunter.admin.egg: true
-      rareitemhunter.admin.boss: true
-      rareitemhunter.admin.reload: true
-      rareitemhunter.admin.notify: true
-      rareitemhunter.admin.essence: true
-      rareitemhunter.admin.compass: true
-      rareitemhunter.admin.crafter: true
-  rareitemhunter.admin.spawnpoint:
-    description: Manage boss egg spawn points
-    default: false
-  rareitemhunter.admin.egg:
-    description: Spawn boss eggs
-    default: false
-  rareitemhunter.admin.boss:
-    description: Spawn bosses
-    default: false
-  rareitemhunter.admin.reload:
-    description: Reload the plugin
-    default: false
-  rareitemhunter.admin.notify:
-    description: Notified of issues/statuses/updates
-    default: false
-  rareitemhunter.admin.essence:
-    description: Give out rare essences
-    default: false
-  rareitemhunter.admin.compass:
-    description: Give out legendary compasses
-    default: false
-  rareitemhunter.admin.crafter:
-    description: Can create essences via commands
+  ri4.admin.essence:
+    description: Can create essences
     default: false
