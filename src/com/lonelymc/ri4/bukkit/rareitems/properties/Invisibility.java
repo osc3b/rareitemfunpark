@@ -23,18 +23,7 @@ public class Invisibility extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.EXPERIENCE,
                 15,
-                8,
-                new String[]{
-                        "type=POTION;dura=8265;", 
-                        "type=NETHER_WART;", 
-                        "type=POTION;dura=8265;", 
-                        "type=BLAZE_ROD;", 
-                        "!UNCOMMON_ESSENCE", 
-                        "type=BLAZE_ROD;",
-                        "type=POTION;dura=8265;", 
-                        "type=NETHER_WART;", 
-                        "type=POTION;dura=8265;"
-                }
+                8
         );
     }
 

@@ -23,18 +23,7 @@ public class Haste extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.EXPERIENCE,
                 5,//cost
-                5,// max level
-                new String[]{
-                        "type=POTION;dura=8258;", 
-                        "type=GOLDEN_RAIL;",
-                        "type=POTION;dura=8258;", 
-                        "type=SUGAR;", 
-                        "!UNCOMMON_ESSENCE", 
-                        "type=SUGAR;", 
-                        "type=POTION;dura=8258;", 
-                        "type=GOLDEN_RAIL;", 
-                        "type=POTION;dura=8258;"
-                }
+                5// max level
         );
     }
 

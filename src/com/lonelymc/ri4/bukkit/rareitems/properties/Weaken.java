@@ -23,18 +23,7 @@ public class Weaken extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.FOOD,
                 1.0D,
-                4,
-                new String[]{
-                        "type=POTION;dura=8258;",
-                        "type=NETHER_WART;",
-                        "type=POTION;dura=8258;",
-                        "type=BLAZE_ROD;",
-                        "!UNCOMMON_ESSENCE",
-                        "type=IRON_INGOT;",
-                        "type=POTION;dura=8258;",
-                        "type=BLAZE_ROD;",
-                        "type=POTION;dura=8258;"
-                }
+                4
         );
     }
 

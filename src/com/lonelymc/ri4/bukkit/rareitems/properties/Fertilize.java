@@ -15,18 +15,7 @@ public class Fertilize extends RareItemProperty {
                 ItemPropertyRarity.COMMON,
                 PropertyCostType.COOLDOWN,
                 0.5,//Cost
-                1,//Max level
-                new String[]{
-                        "type=SEEDS;",
-                        "type=DYE;dura=15;", 
-                        "type=SEEDS;", 
-                        "type=DIRT;", 
-                        "!COMMON_ESSENCE", 
-                        "type=DIRT;", 
-                        "type=SEEDS;",
-                        "type=DYE;dura=15;", 
-                        "type=SEEDS;"
-                }
+                1//Max level
         );
     }
 

@@ -24,18 +24,7 @@ public class Burst extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.FOOD,
                 5.0D,
-                3,
-                new String[]{
-                		"type=TNT;",
-                		"type=PISTON;",
-                		"type=TNT;",
-                		"type=SKULL;dura=4;",
-                		"!UNCOMMON_ESSENCE",
-                		"type=SKULL;dura=4;",
-                		"type=TNT;",
-                		"type=PISTON;",
-                		"type=TNT;"
-                }
+                3
         );
 
         this.fireworks = new FireworkVisualEffect();
