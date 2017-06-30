@@ -17,15 +17,15 @@ public class Spore extends RareItemProperty {
                 0.5D,
                 1,
                 new String[]{
-                        "type=SEEDS;",
+                        "type=RED_MUSHROOM;",
                         "type=COBBLESTONE;",
-                        "type=SEEDS;",
+                        "type=BROWN_MUSHROOM;",
                         "type=COBBLESTONE;",
                         "!COMMON_ESSENCE",
                         "type=COBBLESTONE;",
-                        "type=SEEDS;",
+                        "type=BROWN_MUSHROOM;",
                         "type=COBBLESTONE;",
-                        "type=SEEDS;"
+                        "type=RED_MUSHROOM;"
                 }
         );
     }

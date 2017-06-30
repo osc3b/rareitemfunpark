@@ -20,15 +20,15 @@ public class Backstab extends RareItemProperty {
                 2.0D, // Default cost
                 5,   // Max level
                 new String[]{
-                        "type=DEAD_BUSH;",
-                        "type=ENDER_PORTAL_FRAME;",
-                        "type=DEAD_BUSH;",
-                        "type=ENDER_PORTAL_FRAME;",
-                        "!RARE_ESSENCE",
-                        "type=ENDER_PORTAL_FRAME;",
-                        "type=DEAD_BUSH;",
-                        "type=ENDER_PORTAL_FRAME;",
-                        "type=DEAD_BUSH;"
+                		"type=DIAMOND_SWORD;",
+                		"type=POTION;dura=8265;",
+                		"type=DIAMOND_SWORD;",
+                		"type=POTION;dura=8265;",
+                		"!RARE_ESSENCE",
+                		"type=POTION;dura=8265;",
+                		"type=DIAMOND_SWORD;",
+                		"type=POTION;dura=8265;",
+                		"type=DIAMOND_SWORD;"
                 }
         );
     }

@@ -14,7 +14,18 @@ public class MagicBag extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.COOLDOWN,
                 4.0D,
-                1
+                1,
+                new String[]{
+                        "type=CHEST;", 
+                        "type=ENDER_EYE;", 
+                        "type=CHEST;", 
+                        "type=ENDER_CHEST;", 
+                        "!UNCOMMON_ESSENCE", 
+                        "type=ENDER_CHEST;", 
+                        "type=CHEST;",
+                        "type=ENDER_EYE;", 
+                        "type=CHEST;"
+                }
         );
     }
 

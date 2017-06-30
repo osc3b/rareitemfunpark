@@ -14,7 +14,18 @@ public class CraftItem extends RareItemProperty {
                 ItemPropertyRarity.COMMON,
                 PropertyCostType.COOLDOWN,
                 5.0D,
-                1
+                1,
+                new String[]{
+                        "type=CRAFTING_TABLE;", 
+                        "type=LOG;",
+                        "type=CRAFTING_TABLE;", 
+                        "type=GOLD_INGOT;", 
+                        "!COMMON_ESSENCE", 
+                        "type=IRON_INGOT;", 
+                        "type=CRAFTING_TABLE;", 
+                        "type=STONE;", 
+                        "type=CRAFTING_TABLE;"
+                }
         );
     }
 

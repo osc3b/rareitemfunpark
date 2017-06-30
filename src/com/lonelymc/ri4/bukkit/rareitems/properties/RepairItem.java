@@ -24,13 +24,13 @@ public class RepairItem extends RareItemProperty {
                 100,// xp cost
                 5,// max level
                 new String[]{
-                        "type=POTION;dura=8225;",
+                        "type=POTION;dura=8225;", 
                         "type=ANVIL;",
                         "type=POTION;dura=8225;",
                         "type=ANVIL;",
-                        "!RARE_ESSENCE",
-                        "type=ANVIL;",
-                        "type=POTION;dura=8225;",
+                        "!RARE_ESSENCE", 
+                        "type=ANVIL;", 
+                        "type=POTION;dura=8225;", 
                         "type=IRON_BLOCK;",
                         "type=POTION;dura=8225;"
                 }

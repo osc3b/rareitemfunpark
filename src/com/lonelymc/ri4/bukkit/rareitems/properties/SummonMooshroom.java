@@ -17,7 +17,18 @@ public class SummonMooshroom extends RareItemProperty
             ItemPropertyRarity.LEGENDARY,
             PropertyCostType.EXPERIENCE,
             120,//Cost
-            8//Max level
+            8,//Max level
+            new String[]{
+                    "type=BEEF;",
+                    "type=LEATHER;",
+                    "type=BEEF;",
+                    "type=BROWN_MUSHROOM;",
+                    "!LEGENDARY_ESSENCE",
+                    "type=RED_MUSHROOM;",
+                    "type=BEEF;",
+                    "type=LEATHER;",
+                    "type=BEEF;"
+            }
         );
     }
 

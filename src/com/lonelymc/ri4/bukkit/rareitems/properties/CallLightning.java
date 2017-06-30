@@ -22,15 +22,15 @@ public class CallLightning extends RareItemProperty {
                 4.0D,
                 5,
                 new String[]{
-                        "type=IRON_BLOCK;",
-                        "type=IRON_BLOCK;",
-                        "type=IRON_BLOCK;",
-                        "type=IRON_BLOCK;",
+                        "type=IRON_AXE;",
+                        "type=BLAZE_POWDER;",
+                        "type=IRON_AXE;",
+                        "type=BLAZE_POWDER;",
                         "!LEGENDARY_ESSENCE",
-                        "type=IRON_BLOCK;",
-                        "type=IRON_BLOCK;",
-                        "type=BEACON;",
-                        "type=IRON_BLOCK;"
+                        "type=BLAZE_POWDER;",
+                        "type=IRON_AXE;",
+                        "type=BLAZE_POWDER;",
+                        "type=IRON_AXE;"
                 }
         );
     }

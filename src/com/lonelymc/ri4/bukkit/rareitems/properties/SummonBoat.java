@@ -15,7 +15,18 @@ public class SummonBoat extends RareItemProperty {
             ItemPropertyRarity.COMMON,
             PropertyCostType.COOLDOWN,
             45,//Cost
-            1//Max level
+            1,//Max level
+            new String[]{
+                    "type=SPRUCE_BOAT;",
+                    "type=PLANKS;",
+                    "type=JUNGLE_BOAT;",
+                    "type=BIRCH_BOAT;",
+                    "!COMMON_ESSENCE",
+                    "type=DARK_OAK_BOAT;",
+                    "type=SPRUCE_BOAT;",
+                    "type=PLANKS;",
+                    "type=SPRUCE_BOAT;"
+            }
         );
     }
 

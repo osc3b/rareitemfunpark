@@ -26,15 +26,15 @@ public class Burst extends RareItemProperty {
                 5.0D,
                 3,
                 new String[]{
-                        "type=TNT;",
-                        "type=EYE_OF_ENDER;",
-                        "type=TNT;",
-                        "type=EYE_OF_ENDER;",
-                        "!UNCOMMON_ESSENCE",
-                        "type=EYE_OF_ENDER;",
-                        "type=TNT;",
-                        "type=WATCH;",
-                        "type=TNT;"
+                		"type=TNT;",
+                		"type=PISTON;",
+                		"type=TNT;",
+                		"type=SKULL_ITEM;dura=4;",
+                		"!UNCOMMON_ESSENCE",
+                		"type=SKULL_ITEM;dura=4;",
+                		"type=TNT;",
+                		"type=PISTON;",
+                		"type=TNT;"
                 }
         );
 

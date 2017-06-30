@@ -17,7 +17,18 @@ public class SummonSheep extends RareItemProperty
             ItemPropertyRarity.RARE,
             PropertyCostType.EXPERIENCE,
             50,//Cost
-            8//Max level
+            8,//Max level
+            new String[]{
+                    "type=MUTTON;",
+                    "type=WOOL;",
+                    "type=MUTTON;",
+                    "type=WOOL;",
+                    "!RARE_ESSENCE",
+                    "type=WOOL;",
+                    "type=MUTTON;",
+                    "type=WOOL;",
+                    "type=MUTTON;"
+            }
         );
     }
 

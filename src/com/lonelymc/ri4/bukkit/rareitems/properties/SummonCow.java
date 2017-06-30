@@ -17,7 +17,18 @@ public class SummonCow extends RareItemProperty
             ItemPropertyRarity.RARE,
             PropertyCostType.EXPERIENCE,
             130,//Cost
-            8//Max level
+            8,//Max level
+            new String[]{
+                    "type=BEEF;",
+                    "type=LEATHER;",
+                    "type=BEEF;",
+                    "type=LEATHER;",
+                    "!RARE_ESSENCE",
+                    "type=LEATHER;",
+                    "type=BEEF;",
+                    "type=LEATHER;",
+                    "type=BEEF;"
+            }
         );
     }
 

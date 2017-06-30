@@ -13,7 +13,18 @@ public class Replenish extends RareItemProperty {
                 ItemPropertyRarity.LEGENDARY,
                 PropertyCostType.AUTOMATIC,
                 20,//Cost
-                2//Max level
+                2,//Max level
+                new String[]{
+                        "type=CAKE;", 
+                        "type=PUMPKIN_PIE;",
+                        "type=CAKE;",
+                        "type=COOKED_FISH;",
+                        "!LEGENDARY_ESSENCE", 
+                        "type=COOKED_RABBIT;", 
+                        "type=CAKE;", 
+                        "type=COOKIE;",
+                        "type=CAKE;"
+                }
         );
     }
 

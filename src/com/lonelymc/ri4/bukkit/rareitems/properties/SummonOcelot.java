@@ -17,7 +17,18 @@ public class SummonOcelot extends RareItemProperty
             ItemPropertyRarity.RARE,
             PropertyCostType.EXPERIENCE,
             115,//Cost
-            8//Max level
+            8,//Max level
+            new String[]{
+                    "type=FISH;",
+                    "type=FISH;",
+                    "type=FISH;",
+                    "type=SAPLING;dura=3;",
+                    "!RARE_ESSENCE",
+                    "type=SAPLING;dura=3;;",
+                    "type=FISH;",
+                    "type=FISH;",
+                    "type=FISH;"
+            }
         );
     }
 

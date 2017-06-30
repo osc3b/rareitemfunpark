@@ -21,7 +21,18 @@ public class Pull extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.FOOD,
                 1.0D,
-                1
+                1,
+                new String[]{
+                        "type=ENDER_PEARL;",
+                        "type=SLIME_BALL;",
+                        "type=ENDER_PEARL;",
+                        "type=STRING;",
+                        "!UNCOMMON_ESSENCE",
+                        "type=STRING;",
+                        "type=ENDER_PEARL;",
+                        "type=SLIME_BALL;",
+                        "type=ENDER_PEARL;"
+                }
         );
     }
 

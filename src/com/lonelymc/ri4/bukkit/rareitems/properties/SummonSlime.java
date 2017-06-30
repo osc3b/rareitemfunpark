@@ -15,7 +15,18 @@ public class SummonSlime extends RareItemProperty {
                 ItemPropertyRarity.LEGENDARY,
                 PropertyCostType.EXPERIENCE,
                 120,//Cost
-                8//Max level
+                8,//Max level
+                new String[]{
+                        "type=SLIME;",
+                        "type=SLIME_BALL;",
+                        "type=SLIME;",
+                        "type=SLIME_BALL;",
+                        "!LEGENDARY_ESSENCE",
+                        "type=SLIME_BALL;",
+                        "type=SLIME;",
+                        "type=SLIME_BALL;",
+                        "type=SLIME;"
+                }
         );
     }
 

@@ -17,7 +17,18 @@ public class GrowTree extends RareItemProperty {
                 ItemPropertyRarity.UNCOMMON,
                 PropertyCostType.EXPERIENCE,
                 1.0D,
-                60
+                60,
+                new String[]{
+                        "type=DYE;dura=15;", 
+                        "type=SAPLING;dura=1;", 
+                        "type=DYE;dura=15;", 
+                        "type=SAPLING;dura=2;",
+                        "!UNCOMMON_ESSENCE",
+                        "type=IRON_INGOT;", 
+                        "type=SAPLING;dura=3;",
+                        "type=STONE;",
+                        "type=SAPLING;dura=4;"
+                }
         );
     }
 

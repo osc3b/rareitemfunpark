@@ -18,13 +18,13 @@ public class Fertilize extends RareItemProperty {
                 1,//Max level
                 new String[]{
                         "type=SEEDS;",
-                        "type=DIRT;",
+                        "type=DYE;dura=15;", 
+                        "type=SEEDS;", 
+                        "type=DIRT;", 
+                        "!COMMON_ESSENCE", 
+                        "type=DIRT;", 
                         "type=SEEDS;",
-                        "type=DIRT;",
-                        "!COMMON_ESSENCE",
-                        "type=DIRT;",
-                        "type=SEEDS;",
-                        "type=DIRT;",
+                        "type=DYE;dura=15;", 
                         "type=SEEDS;"
                 }
         );

@@ -17,7 +17,18 @@ public class SummonPig extends RareItemProperty
             ItemPropertyRarity.RARE,
             PropertyCostType.EXPERIENCE,
             65,//Cost
-            8//Max level
+            8,//Max level
+            new String[]{
+                    "type=PORKCHOP;",
+                    "type=CARROT_ON_A_STICK;",
+                    "type=PORKCHOP;",
+                    "type=PORKCHOP;",
+                    "!RARE_ESSENCE",
+                    "type=PORKCHOP;",
+                    "type=PORKCHOP;",
+                    "type=CARROT_ON_A_STICK;",
+                    "type=PORKCHOP;"
+            }
         );
     }
 

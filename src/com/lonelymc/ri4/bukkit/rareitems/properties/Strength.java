@@ -17,7 +17,7 @@ public class Strength extends RareItemProperty {
                 3,
                 new String[]{
                         "type=POTION;dura=8265;",
-                        "type=IRON_BLOCK;",
+                        "type=DIAMOND_SWORD;",
                         "type=POTION;dura=8265;",
                         "type=IRON_BLOCK;",
                         "!LEGENDARY_ESSENCE",
