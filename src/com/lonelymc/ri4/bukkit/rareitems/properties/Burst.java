@@ -29,9 +29,9 @@ public class Burst extends RareItemProperty {
                 		"type=TNT;",
                 		"type=PISTON;",
                 		"type=TNT;",
-                		"type=SKULL_ITEM;dura=4;",
+                		"type=SKULL;dura=4;",
                 		"!UNCOMMON_ESSENCE",
-                		"type=SKULL_ITEM;dura=4;",
+                		"type=SKULL;dura=4;",
                 		"type=TNT;",
                 		"type=PISTON;",
                 		"type=TNT;"
