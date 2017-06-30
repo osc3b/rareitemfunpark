@@ -17,18 +17,7 @@ public class SummonChicken extends RareItemProperty
             ItemPropertyRarity.RARE,
             PropertyCostType.EXPERIENCE,
             60,//Cost
-            8,//Max level
-            new String[]{
-                    "type=CHICKEN;",
-                    "type=FEATHER;",
-                    "type=CHICKEN;",
-                    "type=EGG;",
-                    "!RARE_ESSENCE",
-                    "type=EGG;",
-                    "type=CHICKEN;",
-                    "type=FEATHER;",
-                    "type=CHICKEN;"
-            }
+            8//Max level
         );
     }
 
