@@ -30,14 +30,14 @@ public class Disarm extends RareItemProperty {
         );
 
         this.disarmables = new ArrayList() {};
-        this.disarmables.add(Material.WOOD_SWORD);
+        this.disarmables.add(Material.WOODEN_SWORD);
         this.disarmables.add(Material.STONE_SWORD);
         this.disarmables.add(Material.IRON_SWORD);
-        this.disarmables.add(Material.GOLD_SWORD);
+        this.disarmables.add(Material.GOLDEN_SWORD);
         this.disarmables.add(Material.DIAMOND_SWORD);
         this.disarmables.add(Material.STONE_AXE);
         this.disarmables.add(Material.IRON_AXE);
-        this.disarmables.add(Material.GOLD_AXE);
+        this.disarmables.add(Material.GOLDEN_AXE);
         this.disarmables.add(Material.DIAMOND_AXE);
         this.disarmables.add(Material.BOW);
     }

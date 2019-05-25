@@ -64,7 +64,7 @@ public class BuildersWand extends RareItemProperty {
                         Block bFace = b.getRelative(baseFace);
 
                         bFace.setType(is.getType());
-                        bFace.setData(is.getData().getData());
+                        //bFace.setData(is.getData().getData());
 
                         changedBlocks++;
                     } else {

@@ -33,7 +33,7 @@ public class PaintWool extends RareItemProperty {
 
     @Override
     public boolean onInteracted(Player pInteracted, PlayerInteractEvent e, int level) {
-        if (e.getClickedBlock() != null) {
+        /*if (e.getClickedBlock() != null) {
             if (e.getClickedBlock().getType() == Material.WOOL) {
                 Block woolBlock = e.getClickedBlock();
                 byte woolData = woolBlock.getData();
@@ -46,7 +46,8 @@ public class PaintWool extends RareItemProperty {
 
                 return true;
             }
-        }
+        }*/
+        //Funciona diferente desde la 1.13, ahora no va por numeros, es mas complicado hacer esto ahora
         return false;
     }
 }

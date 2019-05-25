@@ -135,11 +135,11 @@ public class CraftingListener implements Listener {
     @EventHandler(ignoreCancelled = true)
     public void onCraftingEssenceClick(InventoryClickEvent e) {
         // Viewing a recipe in a read-only GUI
-        if (e.getInventory().getTitle().equals(RI4Strings.CRAFTING_VIEW_RARE_ITEM_RECIPE)) {
+        if (e.getView().getTitle().equals(RI4Strings.CRAFTING_VIEW_RARE_ITEM_RECIPE)) {
             e.setCancelled(true);
 
             return;
-        } else if (e.getInventory().getTitle().equals(RI4Strings.CRAFTING_RECIPE_EDITOR)) {
+        } else if (e.getView().getTitle().equals(RI4Strings.CRAFTING_RECIPE_EDITOR)) {
             if (e.getRawSlot() == 0) {
                 ItemStack isSave = e.getInventory().getItem(0);
 

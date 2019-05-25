@@ -42,7 +42,7 @@ public class Regeneration extends RareItemProperty {
             p.setHealth(iNewHP);
 
             //TODO: Verify this effect works
-            p.getLocation().getWorld().playEffect(p.getLocation(), Effect.INSTANT_SPELL, 1);
+            p.getLocation().getWorld().playEffect(p.getLocation(), Effect.POTION_BREAK, 1);
         }
     }
 }

@@ -24,7 +24,7 @@ public class GrowTree extends RareItemProperty {
     @Override
     public boolean onInteracted(Player pInteracted, PlayerInteractEvent e, int level) {
         if (e.getClickedBlock() != null) {
-            if (e.getClickedBlock().getType() == Material.SAPLING) {
+            if (e.getClickedBlock().getType() == Material.LEGACY_SAPLING) {
                 TreeType tt = getTree(e.getClickedBlock());
 
                 e.getClickedBlock().setType(Material.AIR);

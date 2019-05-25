@@ -25,7 +25,7 @@ public class MermaidsGift extends RareItemProperty {
     public void applyEffectToPlayer(Player player, int level) {
         Location pLoc = player.getLocation();
 
-        boolean isInWater = (pLoc.clone().getBlock().getType().equals(Material.STATIONARY_WATER)) && (pLoc.clone().add(0.0D, 1.0D, 0.0D).getBlock().getType().equals(Material.STATIONARY_WATER)) && (pLoc.clone().add(0.0D, -1.0D, 0.0D).getBlock().getType().equals(Material.STATIONARY_WATER)) && (pLoc.clone().add(-1.0D, 0.0D, 1.0D).getBlock().getType().equals(Material.STATIONARY_WATER)) && (pLoc.clone().add(1.0D, 0.0D, -1.0D).getBlock().getType().equals(Material.STATIONARY_WATER));
+        boolean isInWater = (pLoc.clone().getBlock().getType().equals(Material.WATER)) && (pLoc.clone().add(0.0D, 1.0D, 0.0D).getBlock().getType().equals(Material.WATER)) && (pLoc.clone().add(0.0D, -1.0D, 0.0D).getBlock().getType().equals(Material.WATER)) && (pLoc.clone().add(-1.0D, 0.0D, 1.0D).getBlock().getType().equals(Material.WATER)) && (pLoc.clone().add(1.0D, 0.0D, -1.0D).getBlock().getType().equals(Material.WATER));
 
         if (isInWater) {
             if (!player.isFlying()) {
